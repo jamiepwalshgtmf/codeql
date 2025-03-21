@@ -11,4 +11,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
               command: code test
-              snyk auth: --auth-type=token
+              snyk auth: SNYK_TOKEN
